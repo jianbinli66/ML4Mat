@@ -2,6 +2,7 @@ import logging
 import json
 from pathlib import Path
 from datetime import datetime
+import numpy as np
 
 
 def setup_logging(log_file, log_level="INFO"):

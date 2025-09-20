@@ -8,7 +8,6 @@ from sklearn.linear_model import LinearRegression, Ridge
 from sklearn.model_selection import GridSearchCV
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
-import numpy as np
 
 logger = logging.getLogger(__name__)
 

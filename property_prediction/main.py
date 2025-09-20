@@ -7,7 +7,6 @@ Predicts material properties from formula and condition features
 import logging
 from pathlib import Path
 import argparse
-
 # Import project modules
 from config.settings import *
 from data_loader import DataLoader
@@ -65,7 +64,6 @@ def main():
 
         # Process each property
         all_results = {}
-
         for property_name in properties_to_process:
             logger.info(f"\n{'=' * 60}")
             logger.info(f"Processing property: {property_name}")
@@ -121,7 +119,7 @@ def main():
                     visualizer.plot_residuals(y_test, y_pred, best_model_name, property_name)
                     visualizer.plot_feature_importance(best_model, feature_names, best_model_name, property_name)
                     visualizer.plot_shap_summary(best_model, X_train, feature_names, best_model_name, property_name)
-                    visualizer.plot_shap_dependence(best_model, X_train, feature_names, best_model_name, property_name)
+                    # visualizer.plot_shap_dependence(best_model, X_train, feature_names, best_model_name, property_name)
                     visualizer.create_shap_analysis_report(best_model, X_train, feature_names, property_name)
                     # Store results
                     all_results[property_name] = {
@@ -144,6 +142,7 @@ def main():
             summary = visualizer.create_summary_report(all_results)
             save_results(all_results, f"prediction_results_{get_timestamp()}.json")
             logger.info("\nPrediction completed successfully!")
+            logger.info(summary)
             logger.info(f"Results saved for {len(all_results)} properties")
         else:
             logger.warning("No properties were successfully processed")

@@ -4,6 +4,7 @@ from pathlib import Path
 import logging
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
+from sklearn.decomposition import PCA
 
 logger = logging.getLogger(__name__)
 
@@ -59,6 +60,7 @@ class DataLoader:
         # Sort by completeness
         return dict(sorted(stats.items(), key=lambda x: x[1]['completeness_ratio'], reverse=True))
 
+    # For even better performance with large datasets:
     def prepare_property_data(self, property_name, test_size=0.2, random_state=42):
         """Prepare data for a specific property prediction"""
         logger.info(f"Preparing data for property: {property_name}")
@@ -71,7 +73,7 @@ class DataLoader:
         logger.info(f"Available samples for {property_name}: {len(X)}")
 
         if len(X) == 0:
-            return None, None, None, None
+            return None, None, None, None, None
 
         # Split data
         X_train, X_test, y_train, y_test = train_test_split(
@@ -83,7 +85,39 @@ class DataLoader:
         X_train_scaled = scaler.fit_transform(X_train)
         X_test_scaled = scaler.transform(X_test)
 
-        return X_train_scaled, X_test_scaled, y_train, y_test, scaler
+        # Precompute feature indices for PCA
+        formula_mask = np.array([feat.startswith('Formula_') for feat in self.feature_columns])
+        condition_mask = np.array([feat.startswith('Condition_') for feat in self.feature_columns])
+
+        # Apply PCA to formula features
+        if np.any(formula_mask):
+            X_train_formula = X_train_scaled[:, formula_mask]
+            X_test_formula = X_test_scaled[:, formula_mask]
+            pca_formula = PCA(n_components=0.95, random_state=random_state)
+            X_train_formula_pca = pca_formula.fit_transform(X_train_formula)
+            X_test_formula_pca = pca_formula.transform(X_test_formula)
+        else:
+            X_train_formula_pca = np.empty((X_train_scaled.shape[0], 0))
+            X_test_formula_pca = np.empty((X_test_scaled.shape[0], 0))
+
+        # Apply PCA to condition features
+        if np.any(condition_mask):
+            X_train_condition = X_train_scaled[:, condition_mask]
+            X_test_condition = X_test_scaled[:, condition_mask]
+            pca_condition = PCA(n_components=0.95, random_state=random_state)
+            X_train_condition_pca = pca_condition.fit_transform(X_train_condition)
+            X_test_condition_pca = pca_condition.transform(X_test_condition)
+        else:
+            X_train_condition_pca = np.empty((X_train_scaled.shape[0], 0))
+            X_test_condition_pca = np.empty((X_test_scaled.shape[0], 0))
+
+        # Combine PCA results
+        X_train_final = np.hstack((X_train_formula_pca, X_train_condition_pca))
+        X_test_final = np.hstack((X_test_formula_pca, X_test_condition_pca))
+
+        logger.info(f"PCA reduced feature dimensions from {X_train.shape[1]} to {X_train_final.shape[1]}")
+
+        return X_train_final, X_test_final, y_train, y_test, scaler
 
     def get_feature_names(self):
         """Get feature column names"""

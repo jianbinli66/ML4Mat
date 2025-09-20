@@ -16,8 +16,8 @@ for directory in [DATA_DIR, MODELS_DIR, LOGS_DIR, PLOTS_DIR, REPORTS_DIR]:
     directory.mkdir(parents=True, exist_ok=True)
 
 # Data settings
-DATA_FILE = DATA_DIR / "processed_formula_property_data.csv"
-FEATURE_PREFIXES = ["Formula_PC", "Condition_PC"]
+DATA_FILE = DATA_DIR / "clean_property_data.csv"
+FEATURE_PREFIXES = ["Formula_", "Condition_"]
 PROPERTY_PREFIXES = ["Property_"]
 TEST_SIZE = 0.2
 RANDOM_STATE = 42
