@@ -52,11 +52,6 @@ N_JOBS = -1                   # Use all available cores (-1)
 EVALUATION_METRICS = ["silhouette_score", "calinski_harabasz_score", "davies_bouldin_score"]
 RECOMMENDATION_METRICS = ["precision_at_k", "recall_at_k", "ndcg_at_k"]
 
-# API settings (if applicable)
-API_HOST = "localhost"
-API_PORT = 8000
-API_DEBUG = False
-
 # Export settings
 EXPORT_FORMATS = ["csv", "json", "excel"]
 
