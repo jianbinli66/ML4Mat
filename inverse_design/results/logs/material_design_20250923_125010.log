@@ -1,0 +1,176 @@
+2025-09-23 12:50:10,790 - __main__ - INFO - Starting Material Design Framework with INN
+2025-09-23 12:50:10,802 - __main__ - INFO - Using device: cpu
+2025-09-23 12:50:10,804 - __main__ - INFO - Preparing data for training
+2025-09-23 12:50:10,809 - __main__ - INFO - Training samples: 654, Test samples: 281
+2025-09-23 12:50:10,809 - __main__ - INFO - Training forward and inverse models jointly
+2025-09-23 12:50:13,048 - __main__ - INFO - Epoch 0: Forward Loss: 0.9343, INN Loss: 3.6283
+2025-09-23 12:50:13,049 - __main__ - INFO - Test - Forward Loss: 0.7783, INN Loss: 3.0413
+2025-09-23 12:50:13,049 - __main__ - INFO - Train INN Sub-losses - Formula: 1.8403, Condition: 0.7749, Property: 1.0130
+2025-09-23 12:50:13,049 - __main__ - INFO - Test INN Sub-losses - Formula: 1.5149, Condition: 0.6264, Property: 0.9001
+2025-09-23 12:50:17,242 - __main__ - INFO - Epoch 10: Forward Loss: 0.5115, INN Loss: 2.6295
+2025-09-23 12:50:17,242 - __main__ - INFO - Test - Forward Loss: 0.5235, INN Loss: 2.3644
+2025-09-23 12:50:17,242 - __main__ - INFO - Train INN Sub-losses - Formula: 1.6151, Condition: 0.4480, Property: 0.5664
+2025-09-23 12:50:17,242 - __main__ - INFO - Test INN Sub-losses - Formula: 1.4087, Condition: 0.4223, Property: 0.5333
+2025-09-23 12:50:19,919 - __main__ - INFO - Epoch 20: Forward Loss: 0.4748, INN Loss: 2.4641
+2025-09-23 12:50:19,919 - __main__ - INFO - Test - Forward Loss: 0.5033, INN Loss: 2.2067
+2025-09-23 12:50:19,919 - __main__ - INFO - Train INN Sub-losses - Formula: 1.6323, Condition: 0.3202, Property: 0.5117
+2025-09-23 12:50:19,919 - __main__ - INFO - Test INN Sub-losses - Formula: 1.3964, Condition: 0.3033, Property: 0.5069
+2025-09-23 12:50:22,619 - __main__ - INFO - Epoch 30: Forward Loss: 0.4536, INN Loss: 2.4186
+2025-09-23 12:50:22,619 - __main__ - INFO - Test - Forward Loss: 0.5102, INN Loss: 2.1970
+2025-09-23 12:50:22,619 - __main__ - INFO - Train INN Sub-losses - Formula: 1.6593, Condition: 0.2940, Property: 0.4653
+2025-09-23 12:50:22,619 - __main__ - INFO - Test INN Sub-losses - Formula: 1.3967, Condition: 0.2852, Property: 0.5152
+2025-09-23 12:50:25,312 - __main__ - INFO - Epoch 40: Forward Loss: 0.4465, INN Loss: 2.3850
+2025-09-23 12:50:25,312 - __main__ - INFO - Test - Forward Loss: 0.4948, INN Loss: 2.2114
+2025-09-23 12:50:25,312 - __main__ - INFO - Train INN Sub-losses - Formula: 1.6375, Condition: 0.2895, Property: 0.4580
+2025-09-23 12:50:25,312 - __main__ - INFO - Test INN Sub-losses - Formula: 1.4355, Condition: 0.2791, Property: 0.4967
+2025-09-23 12:50:28,006 - __main__ - INFO - Epoch 50: Forward Loss: 0.4486, INN Loss: 2.3566
+2025-09-23 12:50:28,006 - __main__ - INFO - Test - Forward Loss: 0.4894, INN Loss: 2.2023
+2025-09-23 12:50:28,006 - __main__ - INFO - Train INN Sub-losses - Formula: 1.6125, Condition: 0.2874, Property: 0.4567
+2025-09-23 12:50:28,006 - __main__ - INFO - Test INN Sub-losses - Formula: 1.4277, Condition: 0.2785, Property: 0.4961
+2025-09-23 12:50:31,881 - __main__ - INFO - Epoch 60: Forward Loss: 0.4202, INN Loss: 2.2994
+2025-09-23 12:50:31,881 - __main__ - INFO - Test - Forward Loss: 0.4907, INN Loss: 2.1871
+2025-09-23 12:50:31,881 - __main__ - INFO - Train INN Sub-losses - Formula: 1.5864, Condition: 0.2875, Property: 0.4255
+2025-09-23 12:50:31,882 - __main__ - INFO - Test INN Sub-losses - Formula: 1.4156, Condition: 0.2800, Property: 0.4915
+2025-09-23 12:50:35,500 - __main__ - INFO - Epoch 70: Forward Loss: 0.4519, INN Loss: 2.3498
+2025-09-23 12:50:35,501 - __main__ - INFO - Test - Forward Loss: 0.4966, INN Loss: 2.1671
+2025-09-23 12:50:35,501 - __main__ - INFO - Train INN Sub-losses - Formula: 1.6111, Condition: 0.2860, Property: 0.4527
+2025-09-23 12:50:35,501 - __main__ - INFO - Test INN Sub-losses - Formula: 1.3953, Condition: 0.2768, Property: 0.4949
+2025-09-23 12:50:38,173 - __main__ - INFO - Epoch 80: Forward Loss: 0.4545, INN Loss: 2.3847
+2025-09-23 12:50:38,173 - __main__ - INFO - Test - Forward Loss: 0.4924, INN Loss: 2.1733
+2025-09-23 12:50:38,173 - __main__ - INFO - Train INN Sub-losses - Formula: 1.6409, Condition: 0.2850, Property: 0.4588
+2025-09-23 12:50:38,173 - __main__ - INFO - Test INN Sub-losses - Formula: 1.4010, Condition: 0.2802, Property: 0.4921
+2025-09-23 12:50:40,563 - __main__ - INFO - Epoch 90: Forward Loss: 0.4220, INN Loss: 2.3629
+2025-09-23 12:50:40,563 - __main__ - INFO - Test - Forward Loss: 0.4908, INN Loss: 2.1874
+2025-09-23 12:50:40,563 - __main__ - INFO - Train INN Sub-losses - Formula: 1.6538, Condition: 0.2858, Property: 0.4233
+2025-09-23 12:50:40,563 - __main__ - INFO - Test INN Sub-losses - Formula: 1.4168, Condition: 0.2787, Property: 0.4919
+2025-09-23 12:50:43,034 - __main__ - INFO - Epoch 100: Forward Loss: 0.3974, INN Loss: 2.2897
+2025-09-23 12:50:43,034 - __main__ - INFO - Test - Forward Loss: 0.4844, INN Loss: 2.1607
+2025-09-23 12:50:43,034 - __main__ - INFO - Train INN Sub-losses - Formula: 1.6040, Condition: 0.2853, Property: 0.4004
+2025-09-23 12:50:43,034 - __main__ - INFO - Test INN Sub-losses - Formula: 1.3978, Condition: 0.2782, Property: 0.4847
+2025-09-23 12:50:45,615 - __main__ - INFO - Epoch 110: Forward Loss: 0.4365, INN Loss: 2.3634
+2025-09-23 12:50:45,615 - __main__ - INFO - Test - Forward Loss: 0.4939, INN Loss: 2.1898
+2025-09-23 12:50:45,615 - __main__ - INFO - Train INN Sub-losses - Formula: 1.6394, Condition: 0.2873, Property: 0.4367
+2025-09-23 12:50:45,615 - __main__ - INFO - Test INN Sub-losses - Formula: 1.4156, Condition: 0.2790, Property: 0.4952
+2025-09-23 12:50:48,285 - __main__ - INFO - Epoch 120: Forward Loss: 0.4173, INN Loss: 2.3275
+2025-09-23 12:50:48,285 - __main__ - INFO - Test - Forward Loss: 0.4902, INN Loss: 2.1889
+2025-09-23 12:50:48,285 - __main__ - INFO - Train INN Sub-losses - Formula: 1.6179, Condition: 0.2887, Property: 0.4209
+2025-09-23 12:50:48,285 - __main__ - INFO - Test INN Sub-losses - Formula: 1.4194, Condition: 0.2795, Property: 0.4899
+2025-09-23 12:50:50,905 - __main__ - INFO - Epoch 130: Forward Loss: 0.4288, INN Loss: 2.3503
+2025-09-23 12:50:50,906 - __main__ - INFO - Test - Forward Loss: 0.4918, INN Loss: 2.1787
+2025-09-23 12:50:50,906 - __main__ - INFO - Train INN Sub-losses - Formula: 1.6339, Condition: 0.2851, Property: 0.4312
+2025-09-23 12:50:50,906 - __main__ - INFO - Test INN Sub-losses - Formula: 1.4057, Condition: 0.2795, Property: 0.4936
+2025-09-23 12:50:53,574 - __main__ - INFO - Epoch 140: Forward Loss: 0.4306, INN Loss: 2.3461
+2025-09-23 12:50:53,574 - __main__ - INFO - Test - Forward Loss: 0.4910, INN Loss: 2.2104
+2025-09-23 12:50:53,574 - __main__ - INFO - Train INN Sub-losses - Formula: 1.6263, Condition: 0.2864, Property: 0.4333
+2025-09-23 12:50:53,574 - __main__ - INFO - Test INN Sub-losses - Formula: 1.4373, Condition: 0.2805, Property: 0.4926
+2025-09-23 12:50:56,181 - __main__ - INFO - Epoch 150: Forward Loss: 0.4217, INN Loss: 2.3218
+2025-09-23 12:50:56,182 - __main__ - INFO - Test - Forward Loss: 0.4931, INN Loss: 2.1597
+2025-09-23 12:50:56,182 - __main__ - INFO - Train INN Sub-losses - Formula: 1.6142, Condition: 0.2857, Property: 0.4220
+2025-09-23 12:50:56,182 - __main__ - INFO - Test INN Sub-losses - Formula: 1.3862, Condition: 0.2798, Property: 0.4937
+2025-09-23 12:50:58,831 - __main__ - INFO - Epoch 160: Forward Loss: 0.3984, INN Loss: 2.2939
+2025-09-23 12:50:58,831 - __main__ - INFO - Test - Forward Loss: 0.4887, INN Loss: 2.1512
+2025-09-23 12:50:58,831 - __main__ - INFO - Train INN Sub-losses - Formula: 1.6042, Condition: 0.2869, Property: 0.4028
+2025-09-23 12:50:58,831 - __main__ - INFO - Test INN Sub-losses - Formula: 1.3824, Condition: 0.2792, Property: 0.4896
+2025-09-23 12:51:01,481 - __main__ - INFO - Epoch 170: Forward Loss: 0.4132, INN Loss: 2.3185
+2025-09-23 12:51:01,482 - __main__ - INFO - Test - Forward Loss: 0.4890, INN Loss: 2.2137
+2025-09-23 12:51:01,482 - __main__ - INFO - Train INN Sub-losses - Formula: 1.6185, Condition: 0.2843, Property: 0.4157
+2025-09-23 12:51:01,482 - __main__ - INFO - Test INN Sub-losses - Formula: 1.4463, Condition: 0.2786, Property: 0.4889
+2025-09-23 12:51:04,125 - __main__ - INFO - Epoch 180: Forward Loss: 0.4145, INN Loss: 2.3247
+2025-09-23 12:51:04,125 - __main__ - INFO - Test - Forward Loss: 0.4925, INN Loss: 2.1730
+2025-09-23 12:51:04,125 - __main__ - INFO - Train INN Sub-losses - Formula: 1.6226, Condition: 0.2853, Property: 0.4168
+2025-09-23 12:51:04,125 - __main__ - INFO - Test INN Sub-losses - Formula: 1.3994, Condition: 0.2793, Property: 0.4943
+2025-09-23 12:51:07,022 - __main__ - INFO - Epoch 190: Forward Loss: 0.4036, INN Loss: 2.3409
+2025-09-23 12:51:07,022 - __main__ - INFO - Test - Forward Loss: 0.4944, INN Loss: 2.1635
+2025-09-23 12:51:07,022 - __main__ - INFO - Train INN Sub-losses - Formula: 1.6518, Condition: 0.2845, Property: 0.4046
+2025-09-23 12:51:07,022 - __main__ - INFO - Test INN Sub-losses - Formula: 1.3892, Condition: 0.2789, Property: 0.4953
+2025-09-23 12:51:09,759 - __main__ - INFO - Epoch 200: Forward Loss: 0.4107, INN Loss: 2.3488
+2025-09-23 12:51:09,759 - __main__ - INFO - Test - Forward Loss: 0.4931, INN Loss: 2.1938
+2025-09-23 12:51:09,759 - __main__ - INFO - Train INN Sub-losses - Formula: 1.6510, Condition: 0.2874, Property: 0.4104
+2025-09-23 12:51:09,759 - __main__ - INFO - Test INN Sub-losses - Formula: 1.4212, Condition: 0.2795, Property: 0.4931
+2025-09-23 12:51:12,606 - __main__ - INFO - Epoch 210: Forward Loss: 0.4014, INN Loss: 2.3124
+2025-09-23 12:51:12,606 - __main__ - INFO - Test - Forward Loss: 0.4885, INN Loss: 2.1778
+2025-09-23 12:51:12,606 - __main__ - INFO - Train INN Sub-losses - Formula: 1.6265, Condition: 0.2855, Property: 0.4005
+2025-09-23 12:51:12,606 - __main__ - INFO - Test INN Sub-losses - Formula: 1.4121, Condition: 0.2779, Property: 0.4878
+2025-09-23 12:51:15,424 - __main__ - INFO - Epoch 220: Forward Loss: 0.3994, INN Loss: 2.2960
+2025-09-23 12:51:15,424 - __main__ - INFO - Test - Forward Loss: 0.4931, INN Loss: 2.2058
+2025-09-23 12:51:15,424 - __main__ - INFO - Train INN Sub-losses - Formula: 1.6106, Condition: 0.2836, Property: 0.4018
+2025-09-23 12:51:15,424 - __main__ - INFO - Test INN Sub-losses - Formula: 1.4334, Condition: 0.2790, Property: 0.4935
+2025-09-23 12:51:18,063 - __main__ - INFO - Epoch 230: Forward Loss: 0.3946, INN Loss: 2.3091
+2025-09-23 12:51:18,064 - __main__ - INFO - Test - Forward Loss: 0.4883, INN Loss: 2.1784
+2025-09-23 12:51:18,064 - __main__ - INFO - Train INN Sub-losses - Formula: 1.6270, Condition: 0.2863, Property: 0.3957
+2025-09-23 12:51:18,064 - __main__ - INFO - Test INN Sub-losses - Formula: 1.4121, Condition: 0.2773, Property: 0.4890
+2025-09-23 12:51:20,730 - __main__ - INFO - Epoch 240: Forward Loss: 0.4039, INN Loss: 2.3322
+2025-09-23 12:51:20,730 - __main__ - INFO - Test - Forward Loss: 0.4892, INN Loss: 2.1807
+2025-09-23 12:51:20,730 - __main__ - INFO - Train INN Sub-losses - Formula: 1.6380, Condition: 0.2858, Property: 0.4084
+2025-09-23 12:51:20,730 - __main__ - INFO - Test INN Sub-losses - Formula: 1.4106, Condition: 0.2791, Property: 0.4910
+2025-09-23 12:51:23,360 - __main__ - INFO - Epoch 250: Forward Loss: 0.4329, INN Loss: 2.3815
+2025-09-23 12:51:23,361 - __main__ - INFO - Test - Forward Loss: 0.4967, INN Loss: 2.1796
+2025-09-23 12:51:23,361 - __main__ - INFO - Train INN Sub-losses - Formula: 1.6563, Condition: 0.2869, Property: 0.4382
+2025-09-23 12:51:23,361 - __main__ - INFO - Test INN Sub-losses - Formula: 1.4036, Condition: 0.2791, Property: 0.4969
+2025-09-23 12:51:25,926 - __main__ - INFO - Epoch 260: Forward Loss: 0.4088, INN Loss: 2.3217
+2025-09-23 12:51:25,926 - __main__ - INFO - Test - Forward Loss: 0.4902, INN Loss: 2.1853
+2025-09-23 12:51:25,926 - __main__ - INFO - Train INN Sub-losses - Formula: 1.6258, Condition: 0.2864, Property: 0.4094
+2025-09-23 12:51:25,926 - __main__ - INFO - Test INN Sub-losses - Formula: 1.4159, Condition: 0.2791, Property: 0.4903
+2025-09-23 12:51:28,593 - __main__ - INFO - Epoch 270: Forward Loss: 0.4147, INN Loss: 2.3152
+2025-09-23 12:51:28,593 - __main__ - INFO - Test - Forward Loss: 0.4909, INN Loss: 2.1709
+2025-09-23 12:51:28,594 - __main__ - INFO - Train INN Sub-losses - Formula: 1.6101, Condition: 0.2879, Property: 0.4172
+2025-09-23 12:51:28,594 - __main__ - INFO - Test INN Sub-losses - Formula: 1.3996, Condition: 0.2807, Property: 0.4906
+2025-09-23 12:51:31,207 - __main__ - INFO - Epoch 280: Forward Loss: 0.4178, INN Loss: 2.3314
+2025-09-23 12:51:31,207 - __main__ - INFO - Test - Forward Loss: 0.4921, INN Loss: 2.1954
+2025-09-23 12:51:31,207 - __main__ - INFO - Train INN Sub-losses - Formula: 1.6251, Condition: 0.2863, Property: 0.4200
+2025-09-23 12:51:31,207 - __main__ - INFO - Test INN Sub-losses - Formula: 1.4207, Condition: 0.2807, Property: 0.4940
+2025-09-23 12:51:33,811 - __main__ - INFO - Epoch 290: Forward Loss: 0.4137, INN Loss: 2.2874
+2025-09-23 12:51:33,811 - __main__ - INFO - Test - Forward Loss: 0.4961, INN Loss: 2.1808
+2025-09-23 12:51:33,811 - __main__ - INFO - Train INN Sub-losses - Formula: 1.5908, Condition: 0.2853, Property: 0.4113
+2025-09-23 12:51:33,811 - __main__ - INFO - Test INN Sub-losses - Formula: 1.4073, Condition: 0.2770, Property: 0.4965
+2025-09-23 12:51:38,695 - __main__ - INFO - Model training completed
+2025-09-23 12:51:38,730 - __main__ - INFO - Models and scalers saved
+2025-09-23 12:51:38,731 - __main__ - INFO - Generating 5 designs for target properties: {'Property_1': 11.0, 'Property_2': 324.053579, 'Property_3': 260.0}
+2025-09-23 12:51:38,746 - __main__ - INFO - Generated designs saved to results/designs/generated_designs.csv
+2025-09-23 12:51:38,746 - __main__ - INFO - Generated designs analysis:
+2025-09-23 12:51:38,746 - __main__ - INFO - Design 1:
+2025-09-23 12:51:38,747 - __main__ - INFO -   Formula_2: 0.9523
+2025-09-23 12:51:38,747 - __main__ - INFO -   Formula_9: 0.0434
+2025-09-23 12:51:38,747 - __main__ - INFO -   Formula_15: 0.0112
+2025-09-23 12:51:38,747 - __main__ - INFO -   Formula_24: 0.0134
+2025-09-23 12:51:38,747 - __main__ - INFO -   Condition_5: 1
+2025-09-23 12:51:38,747 - __main__ - INFO -   Predicted Property_1: 11.9962 (Error: 0.9962)
+2025-09-23 12:51:38,747 - __main__ - INFO -   Predicted Property_2: 433.0941 (Error: 109.0405)
+2025-09-23 12:51:38,747 - __main__ - INFO -   Predicted Property_3: 348.6093 (Error: 88.6093)
+2025-09-23 12:51:38,747 - __main__ - INFO - Design 2:
+2025-09-23 12:51:38,747 - __main__ - INFO -   Formula_2: 0.9649
+2025-09-23 12:51:38,747 - __main__ - INFO -   Formula_9: 0.0253
+2025-09-23 12:51:38,747 - __main__ - INFO -   Formula_11: 1.2576
+2025-09-23 12:51:38,747 - __main__ - INFO -   Formula_14: 0.0150
+2025-09-23 12:51:38,747 - __main__ - INFO -   Formula_15: 0.0375
+2025-09-23 12:51:38,748 - __main__ - INFO -   Formula_24: 0.0118
+2025-09-23 12:51:38,748 - __main__ - INFO -   Condition_5: 1
+2025-09-23 12:51:38,748 - __main__ - INFO -   Predicted Property_1: 11.8680 (Error: 0.8680)
+2025-09-23 12:51:38,748 - __main__ - INFO -   Predicted Property_2: 422.8080 (Error: 98.7544)
+2025-09-23 12:51:38,748 - __main__ - INFO -   Predicted Property_3: 332.2986 (Error: 72.2986)
+2025-09-23 12:51:38,748 - __main__ - INFO - Design 3:
+2025-09-23 12:51:38,748 - __main__ - INFO -   Formula_2: 0.9051
+2025-09-23 12:51:38,748 - __main__ - INFO -   Formula_9: 0.0399
+2025-09-23 12:51:38,748 - __main__ - INFO -   Formula_24: 0.0111
+2025-09-23 12:51:38,748 - __main__ - INFO -   Condition_5: 1
+2025-09-23 12:51:38,748 - __main__ - INFO -   Predicted Property_1: 11.4840 (Error: 0.4840)
+2025-09-23 12:51:38,748 - __main__ - INFO -   Predicted Property_2: 404.2302 (Error: 80.1766)
+2025-09-23 12:51:38,748 - __main__ - INFO -   Predicted Property_3: 302.6386 (Error: 42.6386)
+2025-09-23 12:51:38,748 - __main__ - INFO - Design 4:
+2025-09-23 12:51:38,749 - __main__ - INFO -   Formula_2: 0.9809
+2025-09-23 12:51:38,749 - __main__ - INFO -   Formula_11: 0.0491
+2025-09-23 12:51:38,749 - __main__ - INFO -   Formula_15: 0.0311
+2025-09-23 12:51:38,749 - __main__ - INFO -   Formula_24: 0.0114
+2025-09-23 12:51:38,749 - __main__ - INFO -   Condition_5: 1
+2025-09-23 12:51:38,749 - __main__ - INFO -   Predicted Property_1: 13.7305 (Error: 2.7305)
+2025-09-23 12:51:38,749 - __main__ - INFO -   Predicted Property_2: 246.0033 (Error: 78.0503)
+2025-09-23 12:51:38,749 - __main__ - INFO -   Predicted Property_3: 184.2554 (Error: 75.7446)
+2025-09-23 12:51:38,749 - __main__ - INFO - Design 5:
+2025-09-23 12:51:38,749 - __main__ - INFO -   Formula_2: 0.9726
+2025-09-23 12:51:38,749 - __main__ - INFO -   Formula_15: 0.0251
+2025-09-23 12:51:38,749 - __main__ - INFO -   Formula_24: 0.0121
+2025-09-23 12:51:38,749 - __main__ - INFO -   Condition_5: 1
+2025-09-23 12:51:38,749 - __main__ - INFO -   Predicted Property_1: 10.3731 (Error: 0.6269)
+2025-09-23 12:51:38,750 - __main__ - INFO -   Predicted Property_2: 375.3005 (Error: 51.2469)
+2025-09-23 12:51:38,750 - __main__ - INFO -   Predicted Property_3: 310.5858 (Error: 50.5858)
+2025-09-23 12:51:38,750 - __main__ - INFO - Material Design Framework with INN completed

@@ -1,3 +1,5 @@
+from datetime import datetime
+
 import torch
 import torch.nn as nn
 import torch.optim as optim
@@ -16,16 +18,31 @@ import json
 import joblib
 from tqdm import tqdm
 import warnings
+from pathlib import Path
 
 from inverse_design.data_loader import MaterialDataset
 from inverse_design.forward_model import ForwardModel
 from inverse_design.inverse_model import InvertibleNeuralNetwork
 
 warnings.filterwarnings('ignore')
+def setup_logging(log_file, log_level="INFO"):
+    """Setup logging configuration"""
+    log_file = Path(log_file)
+    log_file.parent.mkdir(exist_ok=True)
+
+    logging.basicConfig(
+        level=log_level,
+        format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+        handlers=[
+            logging.FileHandler(log_file),
+            logging.StreamHandler()
+        ]
+    )
+
+    return logging.getLogger(__name__)
 
 # Set up logging
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-logger = logging.getLogger(__name__)
+logger = setup_logging(f'results/logs/material_design_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log', 'INFO')
 
 
 class MaterialDesignFramework:
