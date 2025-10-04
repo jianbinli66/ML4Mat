@@ -5,24 +5,23 @@ import torch.nn as nn
 import torch.optim as optim
 import numpy as np
 import pandas as pd
-from torch.utils.data import Dataset, DataLoader
+from torch.utils.data import DataLoader
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import r2_score
 import logging
 import os
-import seaborn as sns
-from typing import Tuple, Dict, List, Optional, Union
+from typing import Tuple, Dict, List
 import json
 import joblib
 from tqdm import tqdm
 import warnings
 from pathlib import Path
 
-from inverse_design.data_loader import MaterialDataset
-from inverse_design.forward_model import ForwardModel
-from inverse_design.inverse_model import InvertibleNeuralNetwork
+from inverse_design.INN.data_loader import MaterialDataset
+from inverse_design.INN.forward_model import ForwardModel
+from inverse_design.INN.inverse_model import InvertibleNeuralNetwork
 
 warnings.filterwarnings('ignore')
 def setup_logging(log_file, log_level="INFO"):
