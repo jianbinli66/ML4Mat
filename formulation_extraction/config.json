@@ -1,0 +1,69 @@
+{
+  "dataset": "DAC",
+  "seed": 8888,
+  "extraction": {
+    "default_model": "qwen3-max",
+    "default_prompt": "detailed_extraction"
+  },
+  "vlm_models": {
+      "qwen-vl-plus": {
+        "url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+        "key_env": "DASHSCOPE_API_KEY",
+        "temperature": 1
+      },
+      "qwen-vl-max": {
+        "url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+        "key_env": "DASHSCOPE_API_KEY",
+        "temperature": 1
+      },
+      "qwen3-vl-plus": {
+        "url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+        "key_env": "DASHSCOPE_API_KEY",
+        "temperature": 1
+      }
+    },
+  "available_models": {
+    "qwen3-max": {
+      "url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+      "key_env": "DASHSCOPE_API_KEY",
+      "temperature": 1
+    },
+    "qwen-plus": {
+      "url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+      "key_env": "DASHSCOPE_API_KEY",
+      "temperature": 0.1
+    },
+    "qwen-flash": {
+      "url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+      "key_env": "DASHSCOPE_API_KEY",
+      "temperature": 0.1
+    },
+    "deepseek-chat": {
+      "url": "https://api.deepseek.com/v1",
+      "key_env": "DEEPSEEK_API_KEY",
+      "temperature": 0.1
+    },
+    "gpt-4o": {
+      "url": "https://api.gptsapi.net/v1",
+      "key_env": "OPENAI_API_KEY",
+      "temperature": 0.1
+    },
+    "gpt-5": {
+      "url": "https://api.gptsapi.net/v1",
+      "key_env": "OPENAI_API_KEY",
+      "temperature": 0.1
+    },
+    "gpt-4-turbo": {
+      "url": "https://api.openai.com/v1",
+      "key_env": "OPENAI_API_KEY",
+      "temperature": 0.1
+    },
+    "Qwen3-Omni-Flash": {
+      "url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+      "key_env": "DASHSCOPE_API_KEY",
+      "temperature": 0.1
+    }
+
+  }
+
+}
